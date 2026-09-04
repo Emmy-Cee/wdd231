@@ -3,15 +3,58 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title></title>
-        <meta name="description" content="">
+        <title>Portfolio - Emmanuel Anietie Atat</title>
+        <meta name="description" content="Portfolio page for WDD 231 with class assignments, modern HTML/CSS practices, and dynamic content built with JavaScript.">
         <meta name="author" content="Emmanuel Anietie Atat">
         <link rel="stylesheet" href="styles/base.css">
         <link rel="stylesheet" href="styles/large.css">
-        <link rel="stylesheet" href="styles/normalize.css">
         <script src="scripts/script.js" defer></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Caacupe+One&family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
     </head>
     <body>
-        
+        <header>
+            <img src="images/logo.svg" alt="Site Logo">
+            <h1>Portfolio</h1>
+            <button id="ham-btn" class="hamburger" aria-label="navigation" aria-expanded="false" type="button"></button>
+        </header>
+        <nav id="nav" class="nav-menu">
+            <ul>
+                <li class="active"><a href="">Home</a></li>
+                <li><a href="">Chamber Project</a></li>
+                <li><a href="">Final</a></li>
+            </ul>
+        </nav>
+        <main>
+            <h1>Home</h1>
+            <section>
+                <h2>About Me</h2>
+                <p>Hello! My name is Emmanuel Anietie Atat. I prefer beeing addressed as Emmy-Cee. I'm from Akwa Ibom State, Nigeria. I am a tech savy individual who stays ahead in the digital world, an observant thinker who notices details others miss, and a curious explorer always eager to learn and innovate. Currently pursuing my studies at BYU-Idaho, I am passionate about web development and creating meaningful digital experiences. My journey in technology has been driven by a desire to understand how things work and to build solutions that make a difference. Beyond coding, I enjoy exploring different cultures, learning new languages, and connecting with people from around the world. I believe that technology should be inclusive, accessible, and used to uplift communities. As I continue my education, I'm committed to mastering web development skills and contributing to projects that have a positive impact.</p>
+            </section>
+
+            <section class="student-photo">
+                <h2>Student Photo</h2>
+                <img src="images/hero-2.webp" alt="Student photo" width="200" height="200">
+            </section>
+
+            <section class="certificate-courses">
+                <h2>Web Certificate Courses</h2>
+                <div id="subjects" class="subject">
+                </div>
+                <div id="courses" class="course-list">
+                </div>
+                <p id="course-total" class="course-total"></p>
+            </section>
+        </main>
+        <footer>
+            <div class="socials">
+                <a href="https://x.com/AtatCee" target="_blank" rel="noopener noreferrer"><img src="images/x.svg" alt="twitter icon" class="svg"></a>
+                <a href="https://github.com/Emmy-Cee" target="_blank" rel="noopener noreferrer"><img src="images/github.svg" alt="github icon" class="svg"></a>
+                <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer"><img src="images/linkedin.svg" alt="likedin icon" class="svg"></a>
+            </div>
+            <p>&copy; <span id="currentyear"></span>🌴 Emmanuel Anietie Atat 🌴 Akwa Ibom State, Nigeria</p>
+            <p id="lastModified"></p>
+        </footer>
     </body>
 </html>
