@@ -105,7 +105,7 @@ function displayCourses(subject) {
         return subject === 'All' || courseItem.subject === subject;
     });
 
-    courseTotal.textContent = `Total number of courses listed below is ${selectedCourses.length}`;
+    courseTotal.textContent = `Total number of courses listed above is ${selectedCourses.length}`;
 
     for (let i = 0; i < courses.length; i++) {
         if (subject === 'All' || courses[i].subject === subject) {
