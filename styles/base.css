@@ -9,7 +9,7 @@ body {
     font-size: 1rem;
 }
 
-h1, h2, nav, footer {
+span, h1, h2, nav, footer {
     font-family: "Caacupe One", sans-serif;
 }
 
@@ -32,8 +32,9 @@ header img {
     height: 40px;
 }
 
-header h1 {
+header span {
     font-size: 2rem;
+    font-weight: 700;
     margin: 0;
 }
 
