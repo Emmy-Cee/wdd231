@@ -97,20 +97,33 @@ subjects.innerHTML = `
     <button class="subject-btn" data-subject="CSE">CSE</button>
 `;
 
+function getTotalCredits(selectedCourses) {
+    return selectedCourses.reduce(function (total, courseItem) {
+        return total + Number(courseItem.credits || 0);
+    }, 0);
+}
+
 function displayCourses(subject) {
     currentSubject = subject;
     coursesContainer.innerHTML = '';
 
-    let selectedCourses = courses.filter(function (courseItem) {
+    const selectedCourses = courses.filter(function (courseItem) {
         return subject === 'All' || courseItem.subject === subject;
     });
 
-    courseTotal.textContent = `Total number of courses listed above is ${selectedCourses.length}`;
+    const totalCredits = getTotalCredits(selectedCourses);
+    courseTotal.textContent = `Total credits: ${totalCredits} (${selectedCourses.length} courses)`;
 
     for (let i = 0; i < courses.length; i++) {
         if (subject === 'All' || courses[i].subject === subject) {
-            const completedClass = courses[i].completed ? ' completed' : '';
-            coursesContainer.innerHTML += `<p class="course-item${completedClass}" data-index="${i}">${courses[i].subject} ${courses[i].number}</p>`;
+            const completedClass = courses[i].completed ? ' completed' : ' pending';
+            const completionLabel = courses[i].completed ? 'Completed' : 'Not completed';
+            coursesContainer.innerHTML += `
+                <p class="course-item${completedClass}" data-index="${i}">
+                    <span class="status-label">${completionLabel}</span>
+                    <span>${courses[i].subject} ${courses[i].number} - ${courses[i].title}</span>
+                </p>
+            `;
         }
     }
 

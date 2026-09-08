@@ -195,15 +195,48 @@ button:hover {
     text-align: center;
 }
 
-.course-total {
-    font-family: "Caacupe One", sans-serif;
+.course-item {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: center;
 }
 
-.completed::before {
+.status-label {
+    display: inline-block;
+    min-width: 120px;
+    padding: 5px 10px;
+    border-radius: 999px;
+    background: #d8d8d8;
+    font-size: 1rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+}
+
+.course-item.completed {
+    border-left: 5px solid #00b894;
+    background: #ddfff5;
+}
+
+.course-item.pending {
+    border-left: 5px solid #d8d8d8;
+}
+
+.course-item.completed .status-label {
+    background: #00E5C3;
+    color: #121212;
+}
+
+.course-item.completed::before {
     content: "\2713";
     font-size: 1rem;
     font-weight: bold;
     padding-right: 6px;
+}
+
+.course-total {
+    font-family: "Caacupe One", sans-serif;
 }
 
 /* ---------------------- Footer --------------------- */
