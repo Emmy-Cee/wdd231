@@ -20,6 +20,12 @@ h1, h2 {
     padding: 3px;
 }
 
+main {
+    border: 1px solid #ccc;
+    box-shadow: 0 8px 18px rgba(46, 45, 45, 0.35);
+    border-radius: 6px;
+}
+
 .cards {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -30,8 +36,9 @@ h1, h2 {
     margin: 10px;
     padding: 10px;
     text-align: center;
-    border: 1px solid #ccc;
+    border: 1px solid navy;
     border-radius: 6px;
+    box-shadow: 0 8px 18px rgba(46, 45, 45, 0.35);
 }
 
 .card p {
