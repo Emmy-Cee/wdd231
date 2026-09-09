@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Comic Relief", system-ui;
+    background-color: #eee;
+    padding: 10px;
+}
+
+header {
+    text-align: center;
+}
+
+h1, h2 {
+    font-family: "Lobster Two", sans-serif;
+    color: blue;
+    padding: 3px;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.card {
+    background-color: #ddd;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+.card p {
+    padding: 1px;
+    color: #1F2937;
+}
+
+.card img {
+    width: 80%;
+    height: auto;
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.35);
+    object-fit: contain;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+footer {
+    text-align: center;
+    padding: 15px 15px 15px 0;
+}
