@@ -49,35 +49,35 @@ directory.innerHTML = members
 }
 
 async function loadMembers() {
-try {
-    const response = await fetch('data/members.json');
-    if (!response.ok) {
-    throw new Error(`HTTP error: ${response.status}`);
-    }
+    try {
+        const response = await fetch('data/members.json');
+        if (!response.ok) {
+        throw new Error(`HTTP error: ${response.status}`);
+        }
 
-    members = await response.json();
-    renderDirectory(currentView);
-} catch (error) {
-    directory.innerHTML = '<p class="error-message">Unable to load member information right now.</p>';
-    console.error('Failed to fetch members:', error);
-}
+        members = await response.json();
+        renderDirectory(currentView);
+    } catch (error) {
+        directory.innerHTML = '<p class="error-message">Unable to load member information right now.</p>';
+        console.error('Failed to fetch members:', error);
+    }
 }
 
 if (menuButton && mainNav) {
-menuButton.addEventListener('click', () => {
-    const expanded = menuButton.getAttribute('aria-expanded') === 'true';
-    menuButton.setAttribute('aria-expanded', String(!expanded));
-    mainNav.classList.toggle('open');
-});
+    menuButton.addEventListener('click', () => {
+        const expanded = menuButton.getAttribute('aria-expanded') === 'true';
+        menuButton.setAttribute('aria-expanded', String(!expanded));
+        mainNav.classList.toggle('open');
+    });
 }
 
 if (viewButtons.length) {
-viewButtons.forEach((button) => {
-    button.addEventListener('click', () => {
-    viewButtons.forEach((btn) => btn.classList.toggle('active', btn === button));
-    renderDirectory(button.dataset.view || 'grid');
+    viewButtons.forEach((button) => {
+        button.addEventListener('click', () => {
+        viewButtons.forEach((btn) => btn.classList.toggle('active', btn === button));
+        renderDirectory(button.dataset.view || 'grid');
+        });
     });
-});
 }
 
 loadMembers();
