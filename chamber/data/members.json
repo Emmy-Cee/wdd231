@@ -1,0 +1,93 @@
+[
+  {
+    "name": "Boise Co-op",
+    "address": "817 W State St, Boise, ID 83702",
+    "phone": "(208) 336-9600",
+    "website": "https://www.boisecoop.com",
+    "facebook": "https://www.facebook.com/BoiseCoop/",
+    "image": "https://scontent.fabb1-3.fna.fbcdn.net/v/t51.75761-15/508823568_18508283929042930_971376338258046855_n.jpg?stp=dst-jpg_tt6&cstp=mx1440x1440&ctp=s1440x1440&_nc_cat=104&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeG-5ro5x8WLfBRkYmCsYMMH13CiRHtHU3rXcKJEe0dTeoYDCSSCBbhKj64yZa8RKIYcrAefzw0JBE1bork8-yM-&_nc_ohc=wh6JjalvYZkQ7kNvwFBIfSP&_nc_oc=AdodqcNdBY8QxvlNhmPiv47x-F6VIzOy-v40kLqf0q9SklzAaQNNUDEB-ZOcVkPCaeZKSe1uk4_rkBK0YAsjJwaT&_nc_zt=23&_nc_ht=scontent.fabb1-3.fna&_nc_gid=ldmQfaH0btvw-sWuzaKGRQ&_nc_ss=7b2a8&oh=00_AQIxyi-A6vqM_KKivL3N3l-6q3HO3fDI3iEAeWk_Tj9Nqw&oe=6AADEF77",
+    "membershipLevel": 3,
+    "category": "Groceries & Community",
+    "description": "A locally focused cooperative supermarket serving Boise with organic groceries, prepared foods, and neighborhood events.",
+    "hours": "Mon-Sat: 8:00 AM - 8:00 PM",
+    "email": "marketing@boisecoop.com"
+  },
+  {
+    "name": "Idaho Central Credit Union",
+    "address": "2702 W Chinden Blvd, Boise, ID 83714",
+    "phone": "(208) 376-1800",
+    "website": "https://www.iccu.com",
+    "facebook": "https://www.facebook.com/IdahoCentralCU/",
+    "image": "https://scontent.fabb1-2.fna.fbcdn.net/v/t39.30808-6/566229182_816453914674650_138509554050868584_n.jpg?stp=dst-jpg_tt6&cstp=mx851x315&ctp=s851x315&_nc_cat=100&ccb=1-7&_nc_sid=cc71e4&_nc_eui2=AeGvk6H_F6McDyedYyKQifskUuoby7pimFlS6hvLumKYWZEVquZXAw3XVA7aImN1lknpz9Siv-ppVf42N2fqQyx4&_nc_ohc=FjUvp6B_kv4Q7kNvwE4dFJY&_nc_oc=AdpM8heKn3sH9MyeGrWLHlqUSyPL2-wWB6M8B3jj3F0m-W7Rjin710aeyqQP-pBA6lDpogWc1unF1B7BPkWQ4p7Y&_nc_zt=23&_nc_ht=scontent.fabb1-2.fna&_nc_gid=gA9cnmzBbK2iyorj_8p8rQ&_nc_ss=7b2a8&oh=00_AQKUVbsZeUIZMPAel4w1KguE008-zAdStrtss8pnc6cGuA&oe=6AAE007E",
+    "membershipLevel": 2,
+    "category": "Finance",
+    "description": "A member-owned financial institution offering banking, lending, and education services across Idaho.",
+    "hours": "Mon-Fri: 9:00 AM - 5:00 PM",
+    "email": "memberservice@iccu.com"
+  },
+  {
+    "name": "The Grove Hotel",
+    "address": "245 S Capitol Blvd, Boise, ID 83702",
+    "phone": "(208) 426-2600",
+    "website": "https://www.thegrovehotel.com",
+    "facebook": "https://www.facebook.com/TheGroveHotelBoise/",
+    "image": "https://scontent.fabb1-2.fna.fbcdn.net/v/t39.30808-6/486596684_1064635409027753_201040855884745015_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x1365&ctp=p180x540&_nc_cat=109&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeH7HR5UuOJkPR-MJXOdU54eZaM44QLipiNlozjhAuKmI789OOds7q7L0w0dDEzXpeer98tB2_y8v3GQdcDqGWS1&_nc_ohc=05JA9piExLoQ7kNvwHyRolM&_nc_oc=Adq5k8_q19W2k8xFJcnReNmaYBwSAgNoKWzclUtJ-xKsCgaveJqtcG4gE-qluhylMvzLT3THtX9UZYR76cL7II5f&_nc_zt=23&_nc_ht=scontent.fabb1-2.fna&_nc_gid=foLuejPSrYCVpQSScGzwtg&_nc_ss=7b2a8&oh=00_AQJ3F8lpfc0scA_R1pFK6RsbbCwczOn_3__8fya0D-HX8g&oe=6AADF477",
+    "membershipLevel": 3,
+    "category": "Hospitality",
+    "description": "A boutique downtown Boise hotel with event spaces, elevated dining, and a strong community presence.",
+    "hours": "Open 24 hours",
+    "email": "reservations@grovehotelboise.com"
+  },
+  {
+    "name": "Bardenay Restaurant & Distillery",
+    "address": "610 W Grove St, Boise, ID 83702 (Basque Block)",
+    "phone": "(208) 426-0538",
+    "website": "https://www.bardenay.com",
+    "facebook": "https://www.facebook.com/BardenayBoise",
+    "image": "https://scontent.fabb1-3.fna.fbcdn.net/v/t39.99422-6/797940886_1385537240371671_5149596207540602237_n.png?stp=dst-jpg_tt6&cstp=mx1260x945&ctp=s720x720&_nc_cat=104&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeHjsKxdjq_2aLXYXxJuwTxjRDiFAt5T9KtEOIUC3lP0qynLIdm8eR8ZQfZRS2x6o1uXfLv2QNj7cvhzAtFa7FO-&_nc_ohc=FLdyIWje1VEQ7kNvwF8cyl8&_nc_oc=AdpNkuAx76kH2oD_X60boF-3n_pxAvz08VrxYYmdl3u4PyXR9QbtuFR37AveLCZ_7kVhtcoFo9BU1EMQ7X_1RNm6&_nc_zt=14&_nc_ht=scontent.fabb1-3.fna&_nc_gid=Z4bN978JlEYiKo8pOBcTig&_nc_ss=7b2a8&oh=00_AQJTE0Q0qME_pW99ceRruWz0i7N63NBL3e42zlFMe2WU1g&oe=6AAE0CB2",
+    "membershipLevel": 1,
+    "category": "Food & Beverage",
+    "description": "Nation’s first restaurant-distillery offering Northwest cuisine, house-distilled spirits, and cocktails in a historic Boise setting.",
+    "hours": "Sun-Sat: 11:00 AM - 10:00 PM",
+    "email": "info@bardenay.com"
+  },
+  {
+    "name": "Boise Brewing",
+    "address": "521 W Broad St, Boise, ID 83702",
+    "phone": "(208) 342-7655",
+    "website": "https://www.boisebrewing.com",
+    "facebook": "https://www.facebook.com/people/Boise-Brewing-People/100063582278342/",
+    "image": "https://scontent.fabb1-1.fna.fbcdn.net/v/t39.30808-6/472844806_1169159408062001_8408413230691554132_n.jpg?stp=dst-jpg_tt6&cstp=mx1440x1080&ctp=s720x720&_nc_cat=108&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeHj_msPxFbwzSNBB7oWBcIkIzI4HwqaNXUjMjgfCpo1dWYCd6WxXQ8S1IEpzUgZXfiq7ufGJ2vxQhrI2DWKY82-&_nc_ohc=6ZdIliUoLeEQ7kNvwF8g0gR&_nc_oc=Adq0nEbh7tYO1Kw8AqJTcMA2feuVXoko0EzAVcL1-aDVZ0uSSYlez_f6Y-zmoUVTP_vWiQehCnvpu6vl88ODIX5U&_nc_zt=23&_nc_ht=scontent.fabb1-1.fna&_nc_gid=7LA-tsbOtVdRlBbAZnTTVg&_nc_ss=7b2a8&oh=00_AQLbMm7Psf3dUHRhvHTxCvIgjE5aA6sEJ3fM9aOMfC3NoQ&oe=6AAE3547",
+    "membershipLevel": 2,
+    "category": "Food & Beverage",
+    "description": "Community-owned brewery and restaurant in downtown Boise serving award-winning craft beer, elevated pub fare, and hosting regular events.",
+    "hours": "Mon-Sat: 12:00 PM - 10:00 PM, Sun: 11:00 AM - 10:00 PM",
+    "email": "info@boisebrewing.com"
+  },
+  {
+    "name": "St. Luke's Health System",
+    "address": "190 E Bannock St, Boise, ID 83712",
+    "phone": "(208) 381-2222",
+    "website": "https://www.stlukeshealth.org",
+    "facebook": "https://www.facebook.com/StLukesHealth/",
+    "image": "https://scontent.fabb1-1.fna.fbcdn.net/v/t39.30808-6/658151918_1484957289931740_8966506263905054815_n.jpg?stp=dst-jpg_tt6&cstp=mx1920x1264&ctp=s590x590&_nc_cat=101&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeGo6yQZbireijdnr1aGkCEnKdyROVhI5Bgp3JE5WEjkGLA2hg5hPNbm6ASpdPhlTaPCshp_U48VlntF4SkqdZu0&_nc_ohc=SdSR4WPRj3UQ7kNvwFoFfPH&_nc_oc=Adqhjxb6uxUu87nycB7tZHNX-aiIuXIXmcgWQE7SVqWy-Wzbb9Rex3zrdxsvan3MmUBQcV4TCDvgwOoNWbqY_iFO&_nc_zt=23&_nc_ht=scontent.fabb1-1.fna&_nc_gid=OrfAlF76_mxTsk2ojggjFA&_nc_ss=7b2a8&oh=00_AQKYmjpi8xAO5SWe3F2H4QNXgV225nYNMJjFObrSlK-Hbw&oe=6AADF928",
+    "membershipLevel": 3,
+    "category": "Healthcare",
+    "description": "A major regional healthcare provider delivering patient care, wellness services, and cutting-edge treatment.",
+    "hours": "Open 24 hours",
+    "email": "digitalteam@slhs.org"
+  },
+  {
+    "name": "Guru Donuts",
+    "address": "928 W Main St #100, Boise, ID 83702",
+    "phone": "(208) 571-7792",
+    "website": "https://www.gurudonuts.com",
+    "facebook": "https://www.facebook.com/GuruDonuts",
+    "image": "https://scontent.fabb1-2.fna.fbcdn.net/v/t51.82787-15/790268575_18619249855006706_4773827818908535416_n.jpg?stp=dst-jpg_tt6&cstp=mx2160x2700&ctp=s590x590&_nc_cat=111&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeHdocAkDdA03MshPioTwQLbf0PtJKuA1IR_Q-0kq4DUhKXLKrCbjwxgEw9T5ttfKXY9hnI88sb2JUzLfrSiYxGv&_nc_ohc=uxZhW0azEEMQ7kNvwFFNE34&_nc_oc=AdrQoFkfoIIcf1OkuxJFs7kHJ_10KZ5pI0LFodTgtqz3fnQwJvV9l26mlDQV8sdZe0P4zk3JEgiEY8YE3j2Q5UCP&_nc_zt=23&_nc_ht=scontent.fabb1-2.fna&_nc_gid=uqh3TyeeJfMwtM46jWF7VQ&_nc_ss=782a8&oh=00_AQKLAk0kb1T0LPgTkD-IO0Gozhc8GKvPkdXsA38PSNK3PQ&oe=6AAE1D21",
+    "membershipLevel": 2,
+    "category": "Food & Beverage",
+    "description": "Local artisan donut shop in downtown Boise known for handcrafted, scratch-made donuts with gluten-friendly and vegan options.",
+    "hours": "Mon-Fri: 7:00 AM - 4:00 PM, Sat-Sun: 8:00 AM - 4:00 PM",
+    "email": "hello@gurudonuts.com"
+  }
+]

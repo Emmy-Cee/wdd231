@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Atiste Chamber of Commerce | Member Directory</title>
+        <meta name="description" content="Explore the Atiste Chamber of Commerce member directory featuring Boise businesses and community partners across the region.">
+        <meta name="author" content="Emmanuel Anietie Atat">
+        <meta property="og:title" content="Atiste Chamber of Commerce | Boise Member Directory">
+        <meta property="og:description" content="Explore Boise-area businesses, service providers, and community partners featured in the Atiste Chamber of Commerce directory.">
+        <meta property="og:image" content="https://emmy-cee.github.io/wdd231/chamber/images/logo-icon.webp">
+        <meta property="og:url" content="https://emmy-cee.github.io/wdd231/chamber/directory.html">
+        <meta property="og:type" content="website">
+        <meta property="og:locale" content="en_US">
+        <meta property="og:site_name" content="Atiste Chamber of Commerce">
+        <meta name="twitter:card" content="summary_large_image">
+        <link rel="stylesheet" href="styles/normalize.css">
+        <link rel="stylesheet" href="styles/base.css">
+        <link rel="stylesheet" href="styles/large.css">
+        <script src="scripts/script.js" defer></script>
+        <link rel="icon" href="images/favicon.ico">
+    </head>
+    <body>
+        <header class="site-header">
+            <div class="header-inner">
+                <a class="brand" href="directory.html" aria-label="Atiste Chamber home page">
+                <img src="images/logo-icon.webp" alt="Atiste Chamber logo" width="52" height="52">
+                <div class="brand-text">
+                    <span class="brand-name">Atiste</span>
+                    <span class="brand-tag">Chamber of Commerce</span>
+                </div>
+                </a>
+
+                <button id="menu-button" class="menu-button" type="button" aria-label="Toggle navigation" aria-expanded="false">
+                    <span class="menu-bar"></span>
+                    <span class="menu-bar"></span>
+                    <span class="menu-bar"></span>
+                </button>
+            </div>
+            <nav class="main-nav" id="main-nav" aria-label="Main navigation">
+                <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Discover</a></li>
+                <li><a href="directory.html" class="active">Directory</a></li>
+                <li><a href="#">Join</a></li>
+                <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main class="page-shell">
+            <h1>Member Directory</h1>
+            <section class="page-banner">
+                <div class="directory-controls" aria-label="Directory view controls">
+                    <button class="view-toggle active" type="button" data-view="grid">Grid View</button>
+                    <button class="view-toggle" type="button" data-view="list">List View</button>
+                </div>
+            </section>
+            <section id="directory" class="member-directory grid-view" aria-live="polite"></section>
+        </main>
+        <footer class="site-footer">
+            <div class="footer-contact">
+                <h2>Atiste Chamber of Commerce</h2>
+                <p>10 Rue De La Paix</p>
+                <p>Atiste, ID 83605</p>
+                <p><a href="mailto:info@atistechamber.org">info@atistechamber.org</a></p>
+                <p><a href="tel:+12085550142">(208) 555-0142</a></p>
+            </div>
+            <div class="footer-social">
+                <a href="http://youtube.com" target="_blank" rel="noopener noreferrer"><img src="images/youtube.svg" alt="youtube icon" class="svg"></a>
+                <a href="http://x.com" target="_blank" rel="noopener noreferrer"><img src="images/twitter-x.svg" alt="twitter x icon" class="svg"></a>
+                <a href="http://linkedin.com" target="_blank" rel="noopener noreferrer"><img src="images/linkedin.svg" alt="linkedin icon" class="svg"></a>
+            </div>
+            <div class="footer-meta">
+                <p>WDD231 Class Project</p>
+                <p>Emmanuel Anietie Atat</p>
+                <p>&copy; <span id="currentyear"></span>🌴 Artiste Chamber of Commerce</p>
+                <p id="lastModified"></p>
+            </div>
+        </footer>
+    </body>
+</html>

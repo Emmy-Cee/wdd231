@@ -1,0 +1,127 @@
+@media screen and (min-width: 768px) and (max-width: 958px) {
+    .header-inner {
+        max-width: 100%;
+        padding: 10px 1rem;
+    }
+
+    .main-nav {
+        padding: 0 1rem 1rem;
+    }
+
+    .main-nav ul {
+        justify-content: center;
+    }
+
+    .main-nav a {
+        padding: 0.6rem 0.85rem;
+    }
+
+    .page-shell {
+        max-width: 100%;
+    }
+
+    .member-directory.grid-view {
+        grid-template-columns: repeat(2, minmax(280px, 1fr));
+    }
+
+    .site-footer {
+        flex-direction: row;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        gap: 1rem;
+        padding: 1.25rem 1rem;
+    }
+}
+
+@media screen and (min-width: 959px) {
+    .site-header {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1rem;
+    }
+
+    .header-inner {
+        margin: 0 auto;
+    }
+
+    .main-nav {
+        margin: 0 auto;
+    }
+
+    .page-shell {
+        padding-top: 2.5rem;
+        max-width: 100%;
+    }
+
+    .member-directory {
+        align-items: stretch;
+    }
+
+    .member-directory.grid-view {
+        grid-template-columns: repeat(3, minmax(300px, 1fr));
+    }
+
+    .member-card {
+        height: 100%;
+    }
+
+    .site-footer {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: row;
+        color: #ffffffeb;
+        background: #0d2339;
+        padding: 1.5rem 1.5rem;
+    }
+
+    .site-footer h2 {
+        margin: 0 0 0.5rem;
+        font-size: 1.25rem;
+    }
+
+    .site-footer p,
+    .site-footer a {
+        margin: 0.15rem 0;
+        color: #ffffffdb;
+    }
+
+    .footer-social a{
+        margin: 0 10px;
+    }
+}
+
+@media (max-width: 700px) {
+    .menu-button {
+        display: block;
+    }
+
+    .main-nav {
+        display: none;
+        padding-top: 0.25rem;
+    }
+
+    .main-nav.open {
+        display: block;
+    }
+
+    .main-nav ul {
+        flex-direction: column;
+        gap: 0.35rem;
+    }
+
+    .main-nav a {
+        background: rgba(255, 255, 255, 0.04);
+    }
+
+    .page-banner {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .list-view .member-card {
+        grid-template-columns: 1fr;
+    }
+}
